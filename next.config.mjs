@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
   typescript: {
     // Re-enable checks to surface the actual errors causing deployment failure
     ignoreBuildErrors: false, 
